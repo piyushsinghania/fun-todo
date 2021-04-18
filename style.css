@@ -1,0 +1,69 @@
+body {
+    background-color: #34495e;
+}
+
+#todo {
+    height: 600px;
+    width: 400px;
+    border: 10px solid #01a3a4;
+    border-radius: 10px;
+    background-color: white;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#input-todo {
+    margin: 10px auto;
+    width: 250px;
+    height: 30px;
+}
+#add-button {
+    height: 35px;
+    width: 90px;
+    color: white;
+    background-color: #2980b9;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#hr-break {
+    margin: 20px auto;
+    margin-top: 30px;
+    width: 40%;
+    color: lightseagreen;
+    border: 2px solid lightseagreen;
+    background-color: lightseagreen;
+}
+#todos {
+    border: 2px solid white;
+    width: 350px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.task{
+    list-style: none;
+    border: 1px solid grey;
+    border-radius: 5px;
+    background-color: white;
+    width: 300px;
+    height: 35px;
+    margin: 2px auto;
+    font: 25px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.remove-button {
+    width: 60px;
+    height: 25px;
+    background-color: crimson;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+}
